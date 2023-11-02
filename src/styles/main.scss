@@ -131,18 +131,18 @@ html.sr .load-hidden {
 // ******** BLOGS SECTION ********
 
 
-.blogs-container {
-    width: 85rem;
-    padding: 1.3rem 0;
-    margin: auto 3rem;
-}
+// .blogs-container {
+//     width: 85rem;
+//     padding: 1.3rem 0;
+//     margin: auto 3rem;
+// }
 
 ;
 
-.blogs-grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-}
+// .blogs-grid-container {
+//     display: grid;
+//     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+// }
 
 .articles-card {
     background-color: $default-card-color;
@@ -245,17 +245,17 @@ html.sr .load-hidden {
 
     // ******** BLOGS SECTION ********
 
-    .blogs-container {
-        margin: auto 1.6rem;
-    };
+    // .blogs-container {
+    //     margin: auto 1.6rem;
+    // };
 
     .articles-card {
         margin: 2rem 0.5rem;
     }
 
-    .blogs-grid-container {
-        display: block;
-    }
+    // .blogs-grid-container {
+    //     display: block;
+    // }
 
     // ******** CONTACT SECTION ********
 

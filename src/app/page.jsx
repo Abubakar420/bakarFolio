@@ -16,7 +16,12 @@ export default function Home() {
 
   useEffect(() => {
     const options = {
-      strings: ["Developer", "Coder", "Tech Blogger", "Tech Enthusiast"],
+      strings: [
+        "Developer",
+        "Coder",
+        "Front_End_Developer",
+        "Word_Press_Developer",
+      ],
       typeSpeed: 50,
       backSpeed: 35,
       loop: true,
@@ -80,7 +85,7 @@ export default function Home() {
                 fontFamily="Black Ops One"
                 fontSize={["2.5rem", "3.7rem"]}
               >
-                Masood Akhtar
+                Abubakar
               </Heading>
 
               <Heading
@@ -88,7 +93,14 @@ export default function Home() {
                 fontSize={["2.5rem", "3.7rem"]}
                 ml={[null, "1rem"]}
               >
-                Vaheed
+                Rehman
+              </Heading>
+              <Heading
+                fontFamily="Black Ops One"
+                fontSize={["2.5rem", "3.7rem"]}
+                ml={[null, "1rem"]}
+              >
+                Khan
               </Heading>
             </Flex>
           </RevealWrapper>

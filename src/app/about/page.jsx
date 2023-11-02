@@ -30,7 +30,7 @@ const Page = () => {
             >
               <Image
                 objectFit="shrink"
-                src="/images/profile.png"
+                src="/images/abubakar.jpg"
                 alt="profile-image"
                 width={["20rem", "30rem", "20rem"]}
                 height={["20rem", "30rem", "20rem"]}
@@ -43,8 +43,8 @@ const Page = () => {
                 </Heading>
                 <br />
                 <Text>
-                  I&apos;m <span className="name">Vaheed</span>, a passionate
-                  software developer. I specialize in{" "}
+                  I&apos;m <span className="name">Abubakar</span>, a passionate
+                  Web developer. I specialize in{" "}
                   <span className="tech">Web Development</span>, crafting
                   seamless user experiences and robust backend solutions. With a
                   knack for problem-solving, I thrive on creating elegant code
@@ -74,13 +74,13 @@ const Page = () => {
               templateColumns="repeat(auto-fill, minmax(270px, 1fr))"
             >
               {interestsData.map((data, index) => {
-                return (
-                  <InterestsCard
-                    interest={data.interest}
-                    icon={data.icon}
-                    key={index}
-                  />
-                );
+                // return (
+                //   <InterestsCard
+                //     interest={data.interest}
+                //     icon={data.icon}
+                //     key={index}
+                //   />
+                // );
               })}
             </SimpleGrid>
           </RevealWrapper>

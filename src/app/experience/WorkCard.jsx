@@ -15,14 +15,21 @@ const WorkCard = (props) => {
     props.data;
   return (
     <>
-      <Card my={3} transition="all .3s ease-in-out"
-       backgroundColor="blueTheme.card"
-        _hover={{transform:"scale(0.99)"}} width= "80vw"
-          boxShadow="0 10px 30px -15px blueTheme.navShadow"
-        >
+      <Card
+        my={3}
+        transition="all .3s ease-in-out"
+        backgroundColor="blueTheme.card"
+        _hover={{ transform: "scale(0.99)" }}
+        width="80vw"
+        boxShadow="0 10px 30px -15px blueTheme.navShadow"
+      >
         <CardBody>
-          <Flex flexDirection={["column","column","row"]} justifyContent="center" alignItems="center">
-            <Image
+          <Flex
+            flexDirection={["column", "column", "row"]}
+            justifyContent="center"
+            alignItems="center"
+          >
+            {/* <Image
               objectFit="cover"
               src={`/images/${companyImg}`}
               alt="Company Logo"
@@ -32,7 +39,7 @@ const WorkCard = (props) => {
               margin={["2rem auto","1rem","auto 1rem"]}
               backgroundColor="white"
               display={["none","unset","unset"]}
-            />
+            /> */}
             <Box>
               <Heading fontSize="1.5rem">{company}</Heading>
               <Heading size="sm" my={2}>
