@@ -47,7 +47,7 @@ Explore different sections of my profile:
 - **🛠️ Skills**
 - **💼 Projects**
 - **🔍 Experience**
-- **📝 Blogs**
+<!-- - **📝 Blogs** -->
 - **📬 Contact**
 
 ## Contributing 💡
